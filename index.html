@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App - Javacript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <script src="/bootstrap.min.js"></script>
+    <script src="/bootstrap.js"></script>
+</head>
+
+<body style="background-color: rgb(194, 196, 204);">
+    <div class="container">
+        <h1 class="header-text text-center mt-5">To Do App</h1>
+        <h3 class="text-center mt-2">Built with Bootstrap 4 and Javascript</h3>
+        <h4 class="text-center mb-3 text-primary">Click "x" to remove an item from the list</h4>
+        <center>
+            <form class="center">
+                <div class="form-group">
+                    <input type="text" name="myInput" id="text-field" class="form-control" placeholder="Add To Do" aria-describedby="helpId">
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-outline-primary text-center addBtn" onclick="newElement()">Add</button>
+                </div>
+            </form>
+            <ul id="myUL" class="text"></ul>
+        </center>
+    </div>
+    <footer class="fixed-bottom">
+        <div class="credits">
+            <p class="text-center">Designed & Developed by: <a href="#">Dumisani Lesley Zulu</a> </p>
+        </div>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+
+</html>
